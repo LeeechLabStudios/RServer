@@ -1,0 +1,35 @@
+{
+  "name": "redlist_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "templates": "ejs-serve -f ./path/to/file.ejs -d '{\"message\":\"Hello!\"}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.1",
+    "dgram": "^1.0.1",
+    "document": "^0.0.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "googleapis": "^109.0.1",
+    "http": "^0.0.1-security",
+    "jquery": "^3.6.3",
+    "jsdom": "^20.0.2",
+    "ngrok": "^4.3.3",
+    "popups": "^1.1.3",
+    "puppeteer": "^19.2.2",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
+    "websocket": "^1.0.34",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "ejs-serve": "^1.2.33",
+    "nodemon": "^2.0.20"
+  }
+}
